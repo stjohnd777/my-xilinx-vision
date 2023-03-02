@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: remap_accel
+Log file: /home/overman/dev/workspaces/vision/vision_kernels/Emulation-SW/build/remap_accel/remap_accel/vitis_hls.log

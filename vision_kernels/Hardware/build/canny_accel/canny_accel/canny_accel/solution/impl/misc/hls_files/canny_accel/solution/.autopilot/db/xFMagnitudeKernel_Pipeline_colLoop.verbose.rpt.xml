@@ -1,0 +1,147 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'xFMagnitudeKernel_Pipeline_colLoop'" level="0">
+<item name = "Date">Wed Mar  1 23:21:15 2023
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">canny_accel</item>
+<item name = "Solution">solution (Vitis Kernel Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu9eg-ffvb1156-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 3.544 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1923, 1923, 12.821 us, 12.821 us, 1923, 1923, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- colLoop">1921, 1921, 3, 1, 1, 1920, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 143, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, -, -, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 63, -</column>
+<column name="Register">-, -, 37, -, -</column>
+<specialColumn name="Available">1824, 2520, 548160, 274080, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="j_5_fu_87_p2">+, 0, 0, 23, 16, 1</column>
+<column name="tmp_6_fu_142_p2">+, 0, 0, 23, 16, 16</column>
+<column name="sub_ln100_fu_106_p2">-, 0, 0, 23, 1, 16</column>
+<column name="sub_ln101_fu_128_p2">-, 0, 0, 23, 1, 16</column>
+<column name="icmp_ln81_fu_81_p2">icmp, 0, 0, 13, 16, 16</column>
+<column name="ap_block_pp0_stage0_01001">or, 0, 0, 2, 1, 1</column>
+<column name="ap_block_state2_pp0_stage0_iter1">or, 0, 0, 2, 1, 1</column>
+<column name="p_1_fu_112_p3">select, 0, 0, 16, 1, 16</column>
+<column name="q_1_fu_134_p3">select, 0, 0, 16, 1, 16</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_sig_allocacmp_j_4">9, 2, 16, 32</column>
+<column name="gradx1_mat_data3_blk_n">9, 2, 1, 2</column>
+<column name="grady1_mat_data6_blk_n">9, 2, 1, 2</column>
+<column name="j_fu_44">9, 2, 16, 32</column>
+<column name="magnitude_mat_data8_blk_n">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="j_fu_44">16, 0, 16, 0</column>
+<column name="tmp_6_reg_159">16, 0, 16, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, xFMagnitudeKernel_Pipeline_colLoop, return value</column>
+<column name="gradx1_mat_data3_dout">in, 16, ap_fifo, gradx1_mat_data3, pointer</column>
+<column name="gradx1_mat_data3_num_data_valid">in, 2, ap_fifo, gradx1_mat_data3, pointer</column>
+<column name="gradx1_mat_data3_fifo_cap">in, 2, ap_fifo, gradx1_mat_data3, pointer</column>
+<column name="gradx1_mat_data3_empty_n">in, 1, ap_fifo, gradx1_mat_data3, pointer</column>
+<column name="gradx1_mat_data3_read">out, 1, ap_fifo, gradx1_mat_data3, pointer</column>
+<column name="grady1_mat_data6_dout">in, 16, ap_fifo, grady1_mat_data6, pointer</column>
+<column name="grady1_mat_data6_num_data_valid">in, 2, ap_fifo, grady1_mat_data6, pointer</column>
+<column name="grady1_mat_data6_fifo_cap">in, 2, ap_fifo, grady1_mat_data6, pointer</column>
+<column name="grady1_mat_data6_empty_n">in, 1, ap_fifo, grady1_mat_data6, pointer</column>
+<column name="grady1_mat_data6_read">out, 1, ap_fifo, grady1_mat_data6, pointer</column>
+<column name="magnitude_mat_data8_din">out, 16, ap_fifo, magnitude_mat_data8, pointer</column>
+<column name="magnitude_mat_data8_num_data_valid">in, 2, ap_fifo, magnitude_mat_data8, pointer</column>
+<column name="magnitude_mat_data8_fifo_cap">in, 2, ap_fifo, magnitude_mat_data8, pointer</column>
+<column name="magnitude_mat_data8_full_n">in, 1, ap_fifo, magnitude_mat_data8, pointer</column>
+<column name="magnitude_mat_data8_write">out, 1, ap_fifo, magnitude_mat_data8, pointer</column>
+<column name="p_read1">in, 16, ap_none, p_read1, scalar</column>
+</table>
+</item>
+</section>
+</profile>

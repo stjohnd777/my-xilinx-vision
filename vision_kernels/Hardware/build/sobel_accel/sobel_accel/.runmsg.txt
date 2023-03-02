@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: sobel_accel
+Log file: /home/overman/dev/workspaces/vision/vision_kernels/Hardware/build/sobel_accel/sobel_accel/vitis_hls.log

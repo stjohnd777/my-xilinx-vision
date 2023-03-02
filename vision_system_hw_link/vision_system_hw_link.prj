@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="vision_system_hw_link" platform="/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm" systemProject="vision_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.1811457096">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="canny_accel" projectName="vision_kernels">
+          <computeUnits name="canny_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="low_threshold"/>
+            <args name="high_threshold"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="sobel_accel" projectName="vision_kernels">
+          <computeUnits name="sobel_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out1" master="true" memory=""/>
+            <args name="img_out2" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="gaussian_filter_accel" projectName="vision_kernels">
+          <computeUnits name="gaussian_filter_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="sigma"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel00" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel00_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel01" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel01_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="fast_accel" projectName="vision_kernels">
+          <computeUnits name="fast_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="threshold"/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.229340565">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="canny_accel" projectName="vision_kernels">
+          <computeUnits name="canny_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="low_threshold"/>
+            <args name="high_threshold"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="sobel_accel" projectName="vision_kernels">
+          <computeUnits name="sobel_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out1" master="true" memory=""/>
+            <args name="img_out2" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="gaussian_filter_accel" projectName="vision_kernels">
+          <computeUnits name="gaussian_filter_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="sigma"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel00" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel00_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel01" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel01_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="fast_accel" projectName="vision_kernels">
+          <computeUnits name="fast_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="threshold"/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="canny_accel" projectName="vision_kernels">
+          <computeUnits name="canny_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="low_threshold"/>
+            <args name="high_threshold"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="sobel_accel" projectName="vision_kernels">
+          <computeUnits name="sobel_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out1" master="true" memory=""/>
+            <args name="img_out2" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="gaussian_filter_accel" projectName="vision_kernels">
+          <computeUnits name="gaussian_filter_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="sigma"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel00" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel00_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel01" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel01_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="fast_accel" projectName="vision_kernels">
+          <computeUnits name="fast_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="threshold"/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.1661866700">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="canny_accel" projectName="vision_kernels">
+          <computeUnits name="canny_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="low_threshold"/>
+            <args name="high_threshold"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="sobel_accel" projectName="vision_kernels">
+          <computeUnits name="sobel_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out1" master="true" memory=""/>
+            <args name="img_out2" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="gaussian_filter_accel" projectName="vision_kernels">
+          <computeUnits name="gaussian_filter_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="sigma"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel00" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel00_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel01" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel01_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="fast_accel" projectName="vision_kernels">
+          <computeUnits name="fast_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="threshold"/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="remap_accel" projectName="vision_kernels">
+          <computeUnits name="remap_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="map_x" master="true" memory=""/>
+            <args name="map_y" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="canny_accel" projectName="vision_kernels">
+          <computeUnits name="canny_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="low_threshold"/>
+            <args name="high_threshold"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="sobel_accel" projectName="vision_kernels">
+          <computeUnits name="sobel_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out1" master="true" memory=""/>
+            <args name="img_out2" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="threshold_accel" projectName="vision_kernels">
+          <computeUnits name="threshold_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="thresh"/>
+            <args name="maxval"/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="gaussian_filter_accel" projectName="vision_kernels">
+          <computeUnits name="gaussian_filter_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+            <args name="sigma"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel00" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel00_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="image_thresholding_kernel01" projectName="vision_kernels">
+          <computeUnits name="image_thresholding_kernel01_1" slr="">
+            <args name="input_image" master="true" memory=""/>
+            <args name="output_image" master="true" memory=""/>
+            <args name="n"/>
+            <args name="m"/>
+            <args name="threshold"/>
+            <args name="maxVal"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="fast_accel" projectName="vision_kernels">
+          <computeUnits name="fast_accel_1" slr="">
+            <args name="img_in" master="true" memory=""/>
+            <args name="threshold"/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

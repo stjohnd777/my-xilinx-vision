@@ -1,0 +1,67 @@
+<dict>
+  <key>main-file</key>
+  <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/xf_threshold_accel.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/xf_threshold_config.h</string>
+      <key>line</key>
+      <integer>43</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>&apos;XF_CV_DEPTH_IN&apos; macro redefined</string>
+      <key>ID</key>
+      <integer>910</integer>
+      <key>WarningOption</key>
+      <string>macro-redefined</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/../xf_config_params.h</string>
+      <key>line</key>
+      <integer>38</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>previous definition is here</string>
+      <key>ID</key>
+      <integer>71</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/xf_threshold_config.h</string>
+      <key>line</key>
+      <integer>44</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>&apos;XF_CV_DEPTH_OUT&apos; macro redefined</string>
+      <key>ID</key>
+      <integer>910</integer>
+      <key>WarningOption</key>
+      <string>macro-redefined</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/../xf_config_params.h</string>
+      <key>line</key>
+      <integer>17</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>previous definition is here</string>
+      <key>ID</key>
+      <integer>71</integer>
+    </dict>
+  </array>
+</dict>

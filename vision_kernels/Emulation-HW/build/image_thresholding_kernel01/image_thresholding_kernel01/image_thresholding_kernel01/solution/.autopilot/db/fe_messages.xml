@@ -1,0 +1,36 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:6:45" msg_body="unused parameter 'n'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:6:61" msg_body="unused parameter 'm'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/Emulation-HW/build/image_thresholding_kernel01/image_thresholding_kernel01/image_thresholding_kernel01.tcl:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=image_thresholding_kernel01" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=input_image offset=slave bundle=gmem0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=output_image offset=slave bundle=gmem1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="image_thresholding_kernel01" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_33_3' (/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:33:19) in function 'image_thresholding_kernel01' partially with a factor of 10">
+        <args Factor="10" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:33:19" LoopName="VITIS_LOOP_33_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_26_2' (/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:26:19) in function 'image_thresholding_kernel01' partially with a factor of 10">
+        <args Factor="10" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:26:19" LoopName="VITIS_LOOP_26_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_21_1' (/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:21:19) in function 'image_thresholding_kernel01' partially with a factor of 10">
+        <args Factor="10" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/mythreshold/image_thresholding-kernel01.cpp:21:19" LoopName="VITIS_LOOP_21_1"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

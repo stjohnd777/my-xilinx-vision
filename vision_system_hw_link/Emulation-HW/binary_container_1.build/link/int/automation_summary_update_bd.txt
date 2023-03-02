@@ -1,0 +1,304 @@
+====================================================================
+Version:    xcd v2022.2 (64-bit)
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Tue Feb 28 22:13:54 2023
+====================================================================
+
+1. Kernel and compute unit information
+======================================
+
+Compute Unit: remap_accel_1
+Kernel: remap_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: canny_accel_1
+Kernel: canny_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: sobel_accel_1
+Kernel: sobel_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: threshold_accel_1
+Kernel: threshold_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: gaussian_filter_accel_1
+Kernel: gaussian_filter_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: image_thresholding_kernel00_1
+Kernel: image_thresholding_kernel00
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: image_thresholding_kernel01_1
+Kernel: image_thresholding_kernel01
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+Compute Unit: fast_accel_1
+Kernel: fast_accel
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+2. Interface Connections
+========================
+
+IP to Compute Unit
+------------------
+Source Pin: interconnect_axilite/M02_AXI
+Destination Pin: canny_accel_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI
+Destination Pin: canny_accel_1/s_axi_control
+
+Source Pin: interconnect_axilite/M08_AXI
+Destination Pin: fast_accel_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI4
+Destination Pin: fast_accel_1/s_axi_control
+
+Source Pin: interconnect_axilite/M05_AXI
+Destination Pin: gaussian_filter_accel_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI5
+Destination Pin: gaussian_filter_accel_1/s_axi_control
+
+Source Pin: interconnect_axilite/M06_AXI
+Destination Pin: image_thresholding_kernel00_1/s_axi_control
+
+Source Pin: System_DPA/S_AXI_MON
+Destination Pin: image_thresholding_kernel00_1/s_axi_control
+
+Source Pin: interconnect_axilite/M07_AXI
+Destination Pin: image_thresholding_kernel01_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI1
+Destination Pin: image_thresholding_kernel01_1/s_axi_control
+
+Source Pin: interconnect_axilite/M01_AXI
+Destination Pin: remap_accel_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI2
+Destination Pin: remap_accel_1/s_axi_control
+
+Source Pin: interconnect_axilite/M03_AXI
+Destination Pin: sobel_accel_1/s_axi_control
+
+Source Pin: System_DPA/MON_S_AXI3
+Destination Pin: sobel_accel_1/s_axi_control
+
+Source Pin: interconnect_axilite/M04_AXI
+Destination Pin: threshold_accel_1/s_axi_control
+
+Source Pin: System_DPA/S_AXI_MON1
+Destination Pin: threshold_accel_1/s_axi_control
+
+Compute Unit to IP
+------------------
+Source Pin: canny_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S04_AXI
+
+Source Pin: canny_accel_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI7
+
+Source Pin: canny_accel_1/m_axi_gmem2
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S05_AXI
+
+Source Pin: canny_accel_1/m_axi_gmem2
+Destination Pin: System_DPA/MON_M_AXI11
+
+Source Pin: fast_accel_1/m_axi_gmem0
+Destination Pin: axi_ic_ps_e_S_AXI_HP1_FPD/S00_AXI
+
+Source Pin: fast_accel_1/m_axi_gmem0
+Destination Pin: System_DPA/MON_M_AXI12
+
+Source Pin: fast_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP1_FPD/S01_AXI
+
+Source Pin: fast_accel_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI13
+
+Source Pin: gaussian_filter_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S11_AXI
+
+Source Pin: gaussian_filter_accel_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI14
+
+Source Pin: gaussian_filter_accel_1/m_axi_gmem2
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S12_AXI
+
+Source Pin: gaussian_filter_accel_1/m_axi_gmem2
+Destination Pin: System_DPA/MON_M_AXI15
+
+Source Pin: image_thresholding_kernel00_1/m_axi_gmem
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S13_AXI
+
+Source Pin: image_thresholding_kernel00_1/m_axi_gmem
+Destination Pin: System_DPA/MON_M_AXI
+
+Source Pin: image_thresholding_kernel01_1/m_axi_gmem0
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S14_AXI
+
+Source Pin: image_thresholding_kernel01_1/m_axi_gmem0
+Destination Pin: System_DPA/MON_M_AXI1
+
+Source Pin: image_thresholding_kernel01_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S15_AXI
+
+Source Pin: image_thresholding_kernel01_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI2
+
+Source Pin: remap_accel_1/m_axi_gmem0
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S00_AXI
+
+Source Pin: remap_accel_1/m_axi_gmem0
+Destination Pin: System_DPA/MON_M_AXI3
+
+Source Pin: remap_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S01_AXI
+
+Source Pin: remap_accel_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI4
+
+Source Pin: remap_accel_1/m_axi_gmem2
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S02_AXI
+
+Source Pin: remap_accel_1/m_axi_gmem2
+Destination Pin: System_DPA/MON_M_AXI5
+
+Source Pin: remap_accel_1/m_axi_gmem3
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S03_AXI
+
+Source Pin: remap_accel_1/m_axi_gmem3
+Destination Pin: System_DPA/MON_M_AXI6
+
+Source Pin: sobel_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S06_AXI
+
+Source Pin: sobel_accel_1/m_axi_gmem1
+Destination Pin: System_DPA/MON_M_AXI8
+
+Source Pin: sobel_accel_1/m_axi_gmem2
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S07_AXI
+
+Source Pin: sobel_accel_1/m_axi_gmem2
+Destination Pin: System_DPA/MON_M_AXI9
+
+Source Pin: sobel_accel_1/m_axi_gmem3
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S08_AXI
+
+Source Pin: sobel_accel_1/m_axi_gmem3
+Destination Pin: System_DPA/MON_M_AXI10
+
+Source Pin: threshold_accel_1/m_axi_gmem1
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S09_AXI
+
+Source Pin: threshold_accel_1/m_axi_gmem2
+Destination Pin: axi_ic_ps_e_S_AXI_HP0_FPD/S10_AXI
+
+3. Clock Connections
+====================
+
+Compute Unit: canny_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: canny_accel_1/ap_clk
+
+Compute Unit: fast_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: fast_accel_1/ap_clk
+
+Compute Unit: gaussian_filter_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: gaussian_filter_accel_1/ap_clk
+
+Compute Unit: image_thresholding_kernel00_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: image_thresholding_kernel00_1/ap_clk
+
+Compute Unit: image_thresholding_kernel01_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: image_thresholding_kernel01_1/ap_clk
+
+Compute Unit: remap_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: remap_accel_1/ap_clk
+
+Compute Unit: sobel_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: sobel_accel_1/ap_clk
+
+Compute Unit: threshold_accel_1
+Clock ID: 0
+Platform Clock Frequency: 150.000000 MHz
+Source Pin: clk_wiz_0/clk_out1
+Destination Pin: threshold_accel_1/ap_clk
+
+Clock Instance: clk_wiz_0
+Source Pin: ps_e/pl_clk0
+Destination Pin: clk_wiz_0/clk_in1
+
+4. Reset Connections
+====================
+
+Compute Unit: canny_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: canny_accel_1/ap_rst_n
+Associated Clock Pin: canny_accel_1/ap_clk
+
+Compute Unit: fast_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: fast_accel_1/ap_rst_n
+Associated Clock Pin: fast_accel_1/ap_clk
+
+Compute Unit: gaussian_filter_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: gaussian_filter_accel_1/ap_rst_n
+Associated Clock Pin: gaussian_filter_accel_1/ap_clk
+
+Compute Unit: image_thresholding_kernel00_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: image_thresholding_kernel00_1/ap_rst_n
+Associated Clock Pin: image_thresholding_kernel00_1/ap_clk
+
+Compute Unit: image_thresholding_kernel01_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: image_thresholding_kernel01_1/ap_rst_n
+Associated Clock Pin: image_thresholding_kernel01_1/ap_clk
+
+Compute Unit: remap_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: remap_accel_1/ap_rst_n
+Associated Clock Pin: remap_accel_1/ap_clk
+
+Compute Unit: sobel_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: sobel_accel_1/ap_rst_n
+Associated Clock Pin: sobel_accel_1/ap_clk
+
+Compute Unit: threshold_accel_1
+Source Pin: proc_sys_reset_0/peripheral_aresetn
+Destination Pin: threshold_accel_1/ap_rst_n
+Associated Clock Pin: threshold_accel_1/ap_clk
+

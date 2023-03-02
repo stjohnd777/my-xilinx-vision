@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: gaussian_filter_accel
+Log file: /home/overman/dev/workspaces/vision/vision_kernels/Hardware/build/gaussian_filter_accel/gaussian_filter_accel/vitis_hls.log

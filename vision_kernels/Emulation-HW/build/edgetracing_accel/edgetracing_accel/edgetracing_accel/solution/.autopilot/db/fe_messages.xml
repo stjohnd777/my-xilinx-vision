@@ -1,0 +1,1461 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-910" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_canny_config.h:44:9" msg_body="'INPUT_PTR_WIDTH' macro redefined">
+        <args ClangWarningOption="macro-redefined"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-71" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../xf_config_params.h:33:9" msg_body="previous definition is here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-910" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_canny_config.h:45:9" msg_body="'OUTPUT_PTR_WIDTH' macro redefined">
+        <args ClangWarningOption="macro-redefined"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-71" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../xf_config_params.h:34:9" msg_body="previous definition is here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5529" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:760:47" msg_body="'factor' in '#pragma HLS array_reshape' is ignored">
+        <args ClangWarningOption="extra-tokens"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:518:30" msg_body="unused parameter 'src'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:529:30" msg_body="unused parameter '_data'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:542:14" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:553:20" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1037:41" msg_body="unused parameter 'stride'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1225:102" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1531:34" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:23:33" msg_body="unused parameter 'win_size'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:56:33" msg_body="unused parameter 'win_size'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:90:30" msg_body="unused parameter 'win_size'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:116:30" msg_body="unused parameter 'win_size'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:536:9" msg_body="unused parameter '_border_type'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:154:23" msg_body="unused parameter 'width'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:155:23" msg_body="unused parameter 'height'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:156:18" msg_body="unused parameter 'bramsetsval'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_strb_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:118:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:171:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:176:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:317:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:342:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:353:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:363:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:246:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:247:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:253:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:254:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:270:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:271:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:280:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:319:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:339:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:349:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:354:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:364:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:369:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:384:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:394:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:399:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:409:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:424:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:429:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:585:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="type" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:593:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="depth" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:600:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channels" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:608:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="init" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:655:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:664:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:673:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:682:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:709:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="copyTo" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:743:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="copyFrom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:950:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="addrbound" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mul_rows_cols op=mul impl=dsp latency=2" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:985:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:986:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:999:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1000:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1020:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1024:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS_ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1025:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1057:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2MatStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1058:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2MatStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1127:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1274:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2MatStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1275:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2MatStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1304:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1309:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS_BOUND_PER_NPC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1352:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1365:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1382:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1383:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1397:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1398:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1412:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1439:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1470:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:1500:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:113:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:125:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:257:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_pixel" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:321:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:333:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:360:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:393:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:426:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:438:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:465:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:498:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:531:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:543:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:580:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:593:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:606:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:619:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:632:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:645:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:658:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:671:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:684:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:701:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:702:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:703:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:712:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:717:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:722:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:727:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:732:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:737:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:742:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:747:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:756:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:760:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val factor=RESHAPE_FACTOR dim=1" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:814:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:827:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:857:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:870:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:899:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:932:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:965:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:971:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:982:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:993:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:1005:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:1017:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:1029:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_video_mem.hpp:1041:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:59:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:82:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:108:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:179:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfPackPixels" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfPackPixels" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:318:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractPixels" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:327:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractPixels" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:350:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractData" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:370:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:378:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=6 max=6" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:449:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=IN_BH max=IN_BH" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:450:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:454:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:455:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=IN_BW max=IN_BW" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:480:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Array2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:481:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Array2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:516:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:517:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:597:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:598:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:608:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:657:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:658:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:703:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2Array" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:704:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2Array" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:754:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:755:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_utility.hpp:766:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2884:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=4 max=4 avg=4" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2885:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2898:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=4 max=4 avg=4" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2899:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2912:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=4 max=4 avg=4" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2913:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2926:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=4 max=4 avg=4" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2927:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse32" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:2952:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Inverse" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:3017:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="IdentifySignBits" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=24 max=24" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:3018:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="IdentifySignBits" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/../core/xf_math.h:3349:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Sqrt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobelProcx5x5" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:58:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobelProcy5x5" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:92:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobelProcx" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:97:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobelProcx" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=array complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:118:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobelProcy" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:172:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf_cop complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:189:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:190:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:203:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:204:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:205:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:214:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:229:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:230:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:236:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:247:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:248:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:267:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:277:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:314:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:318:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:319:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:327:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:331:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:341:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:342:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:352:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:353:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:375:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:376:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:380:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:381:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessSobelfunc" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:419:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=row_ind complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:429:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=OutputValues complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:430:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=OutputValues1 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:435:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=src_buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:436:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=src_buf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:445:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf dim=1 factor=WIN_SZ cyclic" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:446:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf type=RAM_S2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:450:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:451:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:458:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:466:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:470:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:471:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:472:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:481:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:485:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:486:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:495:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:509:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIN_SZ max=WIN_SZ" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_sobel.hpp:510:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSobel3x3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFGaussianFixed3x3" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussian3x3" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussian3x3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:108:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessAverageGaussian3x3" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:118:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessAverageGaussian3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:119:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessAverageGaussian3x3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=OutputValues complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=src_buf1 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=src_buf2 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=src_buf3 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:218:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_averagegaussianmask.hpp:229:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAverageGaussianMask3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMagnitudeKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMagnitudeKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:83:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMagnitudeKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=COLS_TRIP max=COLS_TRIP" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMagnitudeKernel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMagnitudeKernel" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_magnitude.hpp:159:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="magnitude" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFNMS3x3" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFNMS3x3" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=COLS_COUNT max=COLS_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=NPC max=NPC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:255:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=NPC max=NPC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ProcessNms3x3canny" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:316:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=nmsvalue complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:323:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=l00_buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=l10_buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:325:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=l20_buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=angle complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:337:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:341:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=angle_buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:347:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=COLS_COUNT max=COLS_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:348:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:365:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSuppression3x3" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:459:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:460:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:466:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=COLS_TRIP max=COLS_TRIP" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:467:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:478:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:494:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngleKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tg22x op=Mul" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny_utils.hpp:542:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFAngle" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:71:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicate_rows" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicate_rows" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicate_rows" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=TC max=TC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:78:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicate_rows" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFPackNMS" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=ROWS max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:125:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFPackNMS" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:131:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFPackNMS" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=COLS/32 max=COLS/32" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFPackNMS" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:137:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFPackNMS" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFCannyKernel" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFCannyKernel" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_canny.hpp:293:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Canny" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="applyEqn" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:87:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:96:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:106:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:113:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:123:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:130:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PixelProcessNew" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr4 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr3 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:170:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr5 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:179:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:180:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=38 max=38" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=480 max=480" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:193:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr1 inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:196:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=arr2 inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:203:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=38 max=38" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=38 max=38" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:246:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TopDown" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=38 max=38" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:269:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff type=RAM_T2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:289:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:293:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff type=RAM_T2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:294:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=16200 max=16800" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:335:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:336:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:337:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=iBuff intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:389:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=16200 max=16800" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:390:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:420:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=HEIGHT max=HEIGHT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:424:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:425:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=RAM_ROW_DEPTH max=RAM_ROW_DEPTH" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:435:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=WIDTH/8 max=WIDTH/8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:436:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfEdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:461:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="EdgeTracing" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/Emulation-HW/build/edgetracing_accel/edgetracing_accel/edgetracing_accel.tcl:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=edgetracing_accel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=img_inp offset=slave bundle=gmem3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=img_out offset=slave bundle=gmem4" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=rows" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=cols" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="edgetracing_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:560:9" msg_body="Inlining function 'xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init(int, int, bool)' into 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init(int, int, bool)" Caller="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:561:9" msg_body="Inlining function 'xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::copyTo(void*)' into 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::copyTo(void*)" Caller="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:560:9" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init(int, int, bool)' into 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init(int, int, bool)" Caller="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:561:9" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::copyTo(void*)' into 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::copyTo(void*)" Caller="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:142:2" msg_body="Inlining function 'xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)' into 'void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)'">
+        <args Callee="xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)" Caller="void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:125:2" msg_body="Inlining function 'xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)' into 'void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)'">
+        <args Callee="xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)" Caller="void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:108:2" msg_body="Inlining function 'xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)' into 'void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)'">
+        <args Callee="xf::cv::applyEqn(ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;, ap_uint&lt;2&gt;&amp;)" Caller="void xf::cv::PixelProcessNew&lt;1&gt;(ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;, ap_uint&lt;68&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:463:2" msg_body="Inlining function 'void xf::cv::xfEdgeTracing&lt;8, 0, 32, 8, 1080, 1920, false, 2&gt;(xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;, xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, unsigned short, unsigned short, unsigned short)' into 'void xf::cv::EdgeTracing&lt;8, 0, 1080, 1920, 32, 8, false, 2&gt;(xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;)'">
+        <args Callee="void xf::cv::xfEdgeTracing&lt;8, 0, 32, 8, 1080, 1920, false, 2&gt;(xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;, xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, unsigned short, unsigned short, unsigned short)" Caller="void xf::cv::EdgeTracing&lt;8, 0, 1080, 1920, 32, 8, false, 2&gt;(xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:49:49" msg_body="Inlining function 'xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::Mat(int, int, void*)' into 'edgetracing_accel'">
+        <args Callee="xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::Mat(int, int, void*)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:50:48" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::Mat(int, int, void*)' into 'edgetracing_accel'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::Mat(int, int, void*)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:52:5" msg_body="Inlining function 'void xf::cv::EdgeTracing&lt;8, 0, 1080, 1920, 32, 8, false, 2&gt;(xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;)' into 'edgetracing_accel'">
+        <args Callee="void xf::cv::EdgeTracing&lt;8, 0, 1080, 1920, 32, 8, false, 2&gt;(xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;&amp;)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:443:31" msg_body="Loop 'VITIS_LOOP_443_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_443_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:200:13" msg_body="Loop 'RD' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="RD"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:214:13" msg_body="Loop 'RD1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="RD1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:243:13" msg_body="Loop 'RD2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="RD2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:145:23" msg_body="Loop 'VITIS_LOOP_145_4' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_145_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:138:5" msg_body="Loop 'PL_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="PL_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:128:23" msg_body="Loop 'VITIS_LOOP_128_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_128_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:121:5" msg_body="Loop 'PL_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="PL_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:111:23" msg_body="Loop 'VITIS_LOOP_111_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_111_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:104:5" msg_body="Loop 'PL_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="PL_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:94:22" msg_body="Loop 'VITIS_LOOP_94_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_94_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:32" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:24" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:16" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:32" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:24" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:16" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:29" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:21" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:13" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Unrolling loop 'VITIS_LOOP_443_2' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:443:31) in function 'edgetracing_accel' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:443:31" LoopName="VITIS_LOOP_443_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:159:0" msg_body="Unrolling loop 'RD_INIT' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:177:9) in function 'xf::cv::TopDown&lt;20, 6, 1024&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:177:9" LoopName="RD_INIT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:159:0" msg_body="Unrolling loop 'RD' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:200:13) in function 'xf::cv::TopDown&lt;20, 6, 1024&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:200:13" LoopName="RD"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:159:0" msg_body="Unrolling loop 'RD1' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:214:13) in function 'xf::cv::TopDown&lt;20, 6, 1024&gt;' completely with a factor of 6">
+        <args Factor="6" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:214:13" LoopName="RD1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:159:0" msg_body="Unrolling loop 'RD2' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:243:13) in function 'xf::cv::TopDown&lt;20, 6, 1024&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:243:13" LoopName="RD2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'VITIS_LOOP_145_4' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:145:23) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:145:23" LoopName="VITIS_LOOP_145_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'PL_3' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:138:5) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 10">
+        <args Factor="10" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:138:5" LoopName="PL_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'VITIS_LOOP_128_3' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:128:23) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:128:23" LoopName="VITIS_LOOP_128_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'PL_2' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:121:5) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 11">
+        <args Factor="11" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:121:5" LoopName="PL_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'VITIS_LOOP_111_2' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:111:23) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:111:23" LoopName="VITIS_LOOP_111_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'PL_1' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:104:5) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 11">
+        <args Factor="11" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:104:5" LoopName="PL_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'VITIS_LOOP_94_1' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:94:22) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:94:22" LoopName="VITIS_LOOP_94_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:32) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:32" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:24) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:24" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:16) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:92:16" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:32) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:32" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:24) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:24" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:16) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:91:16" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:29) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:29" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:21) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:21" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:85:0" msg_body="Unrolling loop 'anonymous' (/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:13) in function 'xf::cv::PixelProcessNew&lt;1&gt;' completely with a factor of 34">
+        <args Factor="34" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:90:13" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:559:0" msg_body="Inlining function 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)' into 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)" Caller="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../common/xf_structs.hpp:559:0" msg_body="Inlining function 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)' into 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)'">
+        <args Callee="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)" Caller="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Inlining function 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)' into 'edgetracing_accel'">
+        <args Callee="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Inlining function 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)' into 'edgetracing_accel'">
+        <args Callee="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::init&lt;2, (void*)0&gt;(int, int, void*)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Inlining function 'ap_uint&lt;64&gt; xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::read&lt;2, (void*)0&gt;(int)' into 'edgetracing_accel'">
+        <args Callee="ap_uint&lt;64&gt; xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::read&lt;2, (void*)0&gt;(int)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Inlining function 'void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)' into 'edgetracing_accel'">
+        <args Callee="void xf::cv::Mat&lt;8, 1080, 1920, 32, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp:20:0" msg_body="Inlining function 'void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)' into 'edgetracing_accel'">
+        <args Callee="void xf::cv::Mat&lt;0, 1080, 1920, 8, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;64&gt;)" Caller="edgetracing_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:160:17" msg_body="Applying array_partition to 'arr1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="arr1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:160:30" msg_body="Applying array_partition to 'arr2': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="arr2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:160:43" msg_body="Applying array_partition to 'arr4': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="arr4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:167:13" msg_body="Applying array_partition to 'arr3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="arr3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../imgproc/xf_edge_tracing.hpp:284:17" msg_body="Applying array_partition to 'iBuff.i.i': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="iBuff.i.i"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

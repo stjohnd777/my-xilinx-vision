@@ -1,0 +1,928 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5529" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:760:47" msg_body="'factor' in '#pragma HLS array_reshape' is ignored">
+        <args ClangWarningOption="extra-tokens"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:61:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1142:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:471:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1412:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:518:30" msg_body="unused parameter 'src'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:529:30" msg_body="unused parameter '_data'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:542:14" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:553:20" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1037:41" msg_body="unused parameter 'stride'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1225:102" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1531:34" msg_body="unused parameter 'index'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_strb_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:118:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:171:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:176:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:317:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:342:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:353:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:363:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:246:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:247:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:253:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:254:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:270:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:271:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:280:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Scalar&lt;N, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:319:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:339:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator+" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:349:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:354:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:364:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:369:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator-" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:384:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:394:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:399:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:409:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:414:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:424:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:429:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator/" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:585:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="type" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:593:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="depth" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:600:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="channels" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:608:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="init" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:655:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:664:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:673:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:682:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat&lt;T, ROWS, COLS, NPC, XFCVDEPTH&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:709:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="copyTo" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:743:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="copyFrom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:950:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="addrbound" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mul_rows_cols op=mul impl=dsp latency=2" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:985:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:986:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:999:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1000:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1020:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1024:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS_ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1025:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1057:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2MatStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1058:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2MatStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1127:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Axi2Mat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1274:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2MatStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=LOOPBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1275:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2MatStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1304:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ROWS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1309:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS_BOUND_PER_NPC" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MatStream2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1352:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1365:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2AxiStream" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1382:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1383:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1397:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=ADDRBOUND" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1398:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AxiStream2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1412:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1439:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1470:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1500:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mat2Axi" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Window&lt;ROWS, COLS, T&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val dim=2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:113:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:125:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_left" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_right" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:257:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_pixel" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:321:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:333:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_row" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:360:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:393:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:426:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:438:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:465:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:498:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:531:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:543:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:580:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:593:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:606:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:619:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:632:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:645:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:658:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:671:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_left" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:684:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_right" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:701:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:702:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:703:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:712:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:717:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_1P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:722:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:727:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:732:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:737:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_S2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:742:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:747:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val type=RAM_T2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:756:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:760:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LineBuffer&lt;ROWS, COLS, T, MEM_TYPE, RESHAPE_FACTOR&gt;" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=val factor=RESHAPE_FACTOR dim=1" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:814:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:827:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_down" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:857:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:870:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_pixels_up" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:899:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:932:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top_row" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:965:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:971:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_col" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:982:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="getval" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:993:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:1005:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_down" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:1017:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="shift_up" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:1029:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_bottom" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_video_mem.hpp:1041:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="insert_top" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Ptr2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:59:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2Ptr" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:82:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:108:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTRMAT2" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_MAT_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:156:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFMat2AXI_Strm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:179:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AXI_Strm2xFMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateMat_PTR_AXI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = c_TRIP_COUNT max = c_TRIP_COUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFSetBorder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfPackPixels" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:306:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfPackPixels" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:318:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractPixels" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:327:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractPixels" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:350:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfExtractData" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:370:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:378:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=6 max=6" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfCopyData" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:449:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=IN_BH max=IN_BH" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:450:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:454:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:455:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFDuplicateStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=IN_BW max=IN_BW" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:480:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Array2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:481:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Array2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:516:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:517:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:597:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:598:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:608:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="axiStrm2xfMat" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:657:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:658:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2hlsStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:703:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2Array" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:704:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2Array" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:754:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=TRIPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:755:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hlsStrm2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:766:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xfMat2axiStrm" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:65:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram type=RAM_T2P impl=URAM latency=2" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=sx8 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:94:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=row_tripcount" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:103:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:104:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=r inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:105:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:115:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:119:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapNNI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=dx9 complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:190:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete variable=buf dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete variable=buf dim=4" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:200:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram type=RAM_T2P impl=URAM latency=2" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:201:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete variable=bufUram dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=lineBuf type=RAM_S2P impl=BRAM latency=1" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete variable=lineBuf dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:238:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:250:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="OFF" ARG_PragmaType="loop_flatten" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:251:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=row_tripcount" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:260:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:263:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bufUram intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:264:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=r1 inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:265:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=r2 inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=COLS+2" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:278:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:383:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xFRemapLI" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=d3x3 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:470:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:471:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/Hardware/build/remap_accel/remap_accel/remap_accel.tcl:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=remap_accel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=img_in offset=slave bundle=gmem0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=map_x offset=slave bundle=gmem1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=map_y offset=slave bundle=gmem2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=img_out offset=slave bundle=gmem3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=rows" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=cols" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=HEIGHT_WIDTH_LOOPCOUNT" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:61:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="remap_accel" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-273" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:671:0" msg_body="In function 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)', Pragma conflict happens on 'INLINE' and DATAFLOW pragmas: Inline into dataflow region may break the canonical form">
+        <args Function="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-273" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:671:0" msg_body="In function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)', Pragma conflict happens on 'INLINE' and DATAFLOW pragmas: Inline into dataflow region may break the canonical form">
+        <args Function="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-273" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:606:0" msg_body="In function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::init(int, int, bool)', Pragma conflict happens on 'INLINE' and DATAFLOW pragmas: Inline into dataflow region may break the canonical form">
+        <args Function="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::init(int, int, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-273" msg_severity="WARNING" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:606:0" msg_body="In function 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::init(int, int, bool)', Pragma conflict happens on 'INLINE' and DATAFLOW pragmas: Inline into dataflow region may break the canonical form">
+        <args Function="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::init(int, int, bool)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:676:2" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::init(int, int, bool)' into 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::init(int, int, bool)" Caller="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:676:2" msg_body="Inlining function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::init(int, int, bool)' into 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)'">
+        <args Callee="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::init(int, int, bool)" Caller="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:40:48" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)' into 'remap_accel'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)" Caller="remap_accel"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:41:51" msg_body="Inlining function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)' into 'remap_accel'">
+        <args Callee="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)" Caller="remap_accel"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:42:51" msg_body="Inlining function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)' into 'remap_accel'">
+        <args Callee="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::Mat(int, int)" Caller="remap_accel"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:43:51" msg_body="Inlining function 'xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)' into 'remap_accel'">
+        <args Callee="xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::Mat(int, int)" Caller="remap_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:376:35" msg_body="Loop 'VITIS_LOOP_376_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_376_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Unrolling loop 'VITIS_LOOP_376_3' (/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:376:35) in function 'xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;' completely with a factor of 1">
+        <args Factor="1" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:376:35" LoopName="VITIS_LOOP_376_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Unrolling loop 'VITIS_LOOP_236_1' (/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:236:23) in function 'xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;' completely with a factor of 1">
+        <args Factor="1" LoopLoc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:236:23" LoopName="VITIS_LOOP_236_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:700:0" msg_body="Inlining function 'void xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;32&gt;) (.115.121)' into 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write_float(int, float)'">
+        <args Callee="void xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;32&gt;) (.115.121)" Caller="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write_float(int, float)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:1012:0" msg_body="Inlining function 'xf::cv::MMIter&lt;8, 0, 1080, 1920, 1, 2&gt;::addrbound(int, int)' into 'xf::cv::MMIterIn&lt;8, 0, 1080, 1920, 1, 2&gt;::Axi2AxiStream(ap_uint&lt;8&gt;*, hls::stream&lt;ap_uint&lt;8&gt;, 0&gt;&amp;, int, int, int, int)'">
+        <args Callee="xf::cv::MMIter&lt;8, 0, 1080, 1920, 1, 2&gt;::addrbound(int, int)" Caller="xf::cv::MMIterIn&lt;8, 0, 1080, 1920, 1, 2&gt;::Axi2AxiStream(ap_uint&lt;8&gt;*, hls::stream&lt;ap_uint&lt;8&gt;, 0&gt;&amp;, int, int, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:797:0" msg_body="Inlining function 'xf::cv::MMIterIn&lt;8, 0, 1080, 1920, 1, 2&gt;::Array2xfMat(ap_uint&lt;8&gt;*, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, int)' into 'void xf::cv::Array2xfMat&lt;8, 0, 1080, 1920, 1, 2&gt;(ap_uint&lt;8&gt;*, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, int)'">
+        <args Callee="xf::cv::MMIterIn&lt;8, 0, 1080, 1920, 1, 2&gt;::Array2xfMat(ap_uint&lt;8&gt;*, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, int)" Caller="void xf::cv::Array2xfMat&lt;8, 0, 1080, 1920, 1, 2&gt;(ap_uint&lt;8&gt;*, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_structs.hpp:689:0" msg_body="Inlining function 'ap_uint&lt;32&gt; xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read&lt;2, (void*)0&gt;(int) (.109.129)' into 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read_float(int)'">
+        <args Callee="ap_uint&lt;32&gt; xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read&lt;2, (void*)0&gt;(int) (.109.129)" Caller="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read_float(int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::mantissa() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::mantissa() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::expv() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::expv() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::__signbit() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::__signbit() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)' into 'int generic_cast_IEEE754&lt;int, float&gt;(float, bool)'">
+        <args Callee="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)" Caller="int generic_cast_IEEE754&lt;int, float&gt;(float, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2022.2/hls_product/continuous/608/2022.2/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:51:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, float&gt;(float, bool)' into '__hls_fptosi_float_i32'">
+        <args Callee="int generic_cast_IEEE754&lt;int, float&gt;(float, bool)" Caller="__hls_fptosi_float_i32"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Inlining function 'ap_uint&lt;8&gt; xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::read&lt;2, (void*)0&gt;(int)' into 'void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)'">
+        <args Callee="ap_uint&lt;8&gt; xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::read&lt;2, (void*)0&gt;(int)" Caller="void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Inlining function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read_float(int)' into 'void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)'">
+        <args Callee="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::read_float(int)" Caller="void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Inlining function '__hls_fptosi_float_i32' into 'void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)'">
+        <args Callee="__hls_fptosi_float_i32" Caller="void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:182:0" msg_body="Inlining function 'void xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;8&gt;)' into 'void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)'">
+        <args Callee="void xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;::write&lt;2, (void*)0&gt;(int, ap_uint&lt;8&gt;)" Caller="void xf::cv::xFRemapLI&lt;0, 0, 1, 4, 8, 1080, 1920, 1, 2, 2, 2, 2, false&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;&amp;, unsigned short, unsigned short)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../common/xf_utility.hpp:787:0" msg_body="Inlining function 'xf::cv::MMIterOut&lt;8, 0, 1080, 1920, 1, 1, 2&gt;::xfMat2Array(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, ap_uint&lt;8&gt;*, int)' into 'void xf::cv::xfMat2Array&lt;8, 0, 1080, 1920, 1, 2, 1&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, ap_uint&lt;8&gt;*, int)'">
+        <args Callee="xf::cv::MMIterOut&lt;8, 0, 1080, 1920, 1, 1, 2&gt;::xfMat2Array(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, ap_uint&lt;8&gt;*, int)" Caller="void xf::cv::xfMat2Array&lt;8, 0, 1080, 1920, 1, 2, 1&gt;(xf::cv::Mat&lt;0, 1080, 1920, 1, 2&gt;&amp;, ap_uint&lt;8&gt;*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/xf_remap_accel.cpp:29:0" msg_body="Inlining function 'xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write_float(int, float)' into 'remap_accel'">
+        <args Callee="xf::cv::Mat&lt;4, 1080, 1920, 1, 2&gt;::write_float(int, float)" Caller="remap_accel"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/home/overman/dev/workspaces/vision/vision_kernels/src/remap/../imgproc/xf_remap.hpp:186:5" msg_body="Applying array_partition to 'buf': Complete partitioning on dimension 2. Complete partitioning on dimension 4.">
+        <args Dim="islist 2 4" Mode="islist Complete Complete" UOName="buf"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

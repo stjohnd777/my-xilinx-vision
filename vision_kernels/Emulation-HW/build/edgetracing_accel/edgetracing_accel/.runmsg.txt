@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: edgetracing_accel
+Log file: /home/overman/dev/workspaces/vision/vision_kernels/Emulation-HW/build/edgetracing_accel/edgetracing_accel/vitis_hls.log

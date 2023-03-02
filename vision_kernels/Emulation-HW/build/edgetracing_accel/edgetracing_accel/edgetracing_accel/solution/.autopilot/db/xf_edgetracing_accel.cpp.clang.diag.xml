@@ -1,0 +1,67 @@
+<dict>
+  <key>main-file</key>
+  <string>/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_edgetracing_accel.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_canny_config.h</string>
+      <key>line</key>
+      <integer>44</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>&apos;INPUT_PTR_WIDTH&apos; macro redefined</string>
+      <key>ID</key>
+      <integer>910</integer>
+      <key>WarningOption</key>
+      <string>macro-redefined</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../xf_config_params.h</string>
+      <key>line</key>
+      <integer>33</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>previous definition is here</string>
+      <key>ID</key>
+      <integer>71</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/canny/xf_canny_config.h</string>
+      <key>line</key>
+      <integer>45</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>&apos;OUTPUT_PTR_WIDTH&apos; macro redefined</string>
+      <key>ID</key>
+      <integer>910</integer>
+      <key>WarningOption</key>
+      <string>macro-redefined</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/canny/../xf_config_params.h</string>
+      <key>line</key>
+      <integer>34</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>previous definition is here</string>
+      <key>ID</key>
+      <integer>71</integer>
+    </dict>
+  </array>
+</dict>

@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<cf:model cf:cpu="cortex_a53" cf:partition="0" cf:prefix="p_0_" cf:name="dr" xd:type="design" xmlns:xd="http://www.xilinx.com/xd" xmlns:cf="http://www.xilinx.com/connections">
+  <cf:block cf:name="hwblk_remap_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_in" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="map_x" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="map_y" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_remap_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_in" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="map_x" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="map_y" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_canny_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="low_threshold" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="high_threshold" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_canny_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="low_threshold" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="high_threshold" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_sobel_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out1" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out2" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_sobel_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out1" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out2" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_threshold_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="thresh" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="maxval" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_threshold_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="thresh" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="maxval" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_gaussian_filter_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="sigma" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_gaussian_filter_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_inp" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="sigma" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_image_thresholding_kernel00">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="input_image" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="output_image" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="n" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="m" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="maxVal" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_image_thresholding_kernel00">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="input_image" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="output_image" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="n" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="m" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="maxVal" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_image_thresholding_kernel01">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="input_image" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="output_image" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="n" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="m" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="maxVal" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_image_thresholding_kernel01">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="input_image" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="output_image" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="n" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="m" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="maxVal" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:block cf:name="hwblk_fast_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_in" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="in"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="in"/>
+  </cf:block>
+  <cf:block cf:name="swblk_fast_accel">
+    <cf:port cf:name="s_axi_control" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_in" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="threshold" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="img_out" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="rows" cf:portType="stream" cf:direction="out"/>
+    <cf:port cf:name="cols" cf:portType="stream" cf:direction="out"/>
+  </cf:block>
+  <cf:comp cf:name="xilinx_zcu102_base_202220_1" xd:componentRef="xilinx_zcu102_base_202220_1" xd:clockId="0"/>
+  <cf:comp cf:name="remap_accel_1" xd:componentRef="remap_accel" xd:clockId="0"/>
+  <cf:comp cf:name="canny_accel_1" xd:componentRef="canny_accel" xd:clockId="0"/>
+  <cf:comp cf:name="sobel_accel_1" xd:componentRef="sobel_accel" xd:clockId="0"/>
+  <cf:comp cf:name="threshold_accel_1" xd:componentRef="threshold_accel" xd:clockId="0"/>
+  <cf:comp cf:name="gaussian_filter_accel_1" xd:componentRef="gaussian_filter_accel" xd:clockId="0"/>
+  <cf:comp cf:name="image_thresholding_kernel00_1" xd:componentRef="image_thresholding_kernel00" xd:clockId="0"/>
+  <cf:comp cf:name="image_thresholding_kernel01_1" xd:componentRef="image_thresholding_kernel01" xd:clockId="0"/>
+  <cf:comp cf:name="fast_accel_1" xd:componentRef="fast_accel" xd:clockId="0"/>
+  <cf:instance cf:name="hwinst_remap_accel_1" cf:blockName="hwblk_remap_accel" cf:compName="remap_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_in" cf:compPort="m_axi_gmem0" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="map_x" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="map_y" cf:compPort="m_axi_gmem2" cf:ctrlPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="m_axi_gmem3" cf:ctrlPort="s_axi_control" xd:register="0x34"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x40"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x48"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_remap_accel_1" cf:blockName="swblk_remap_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_in" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="map_x" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="map_y" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_canny_accel_1" cf:blockName="hwblk_canny_accel" cf:compName="canny_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="m_axi_gmem2" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="low_threshold" cf:compPort="s_axi_control" xd:register="0x38"/>
+    <cf:portMap cf:blockPort="high_threshold" cf:compPort="s_axi_control" xd:register="0x40"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_canny_accel_1" cf:blockName="swblk_canny_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="low_threshold" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="high_threshold" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_sobel_accel_1" cf:blockName="hwblk_sobel_accel" cf:compName="sobel_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="img_out1" cf:compPort="m_axi_gmem2" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="img_out2" cf:compPort="m_axi_gmem3" cf:ctrlPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x34"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x3C"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_sobel_accel_1" cf:blockName="swblk_sobel_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out1" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out2" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_threshold_accel_1" cf:blockName="hwblk_threshold_accel" cf:compName="threshold_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="m_axi_gmem2" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="thresh" cf:compPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="maxval" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x38"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x40"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_threshold_accel_1" cf:blockName="swblk_threshold_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="thresh" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="maxval" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_gaussian_filter_accel_1" cf:blockName="hwblk_gaussian_filter_accel" cf:compName="gaussian_filter_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="m_axi_gmem2" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="sigma" cf:compPort="s_axi_control" xd:register="0x38"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_gaussian_filter_accel_1" cf:blockName="swblk_gaussian_filter_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_inp" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="sigma" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_image_thresholding_kernel00_1" cf:blockName="hwblk_image_thresholding_kernel00" cf:compName="image_thresholding_kernel00_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="input_image" cf:compPort="m_axi_gmem" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="output_image" cf:compPort="m_axi_gmem" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="n" cf:compPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="m" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="s_axi_control" xd:register="0x38"/>
+    <cf:portMap cf:blockPort="maxVal" cf:compPort="s_axi_control" xd:register="0x40"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_image_thresholding_kernel00_1" cf:blockName="swblk_image_thresholding_kernel00" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="input_image" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="output_image" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="n" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="m" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="maxVal" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_image_thresholding_kernel01_1" cf:blockName="hwblk_image_thresholding_kernel01" cf:compName="image_thresholding_kernel01_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="input_image" cf:compPort="m_axi_gmem0" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="output_image" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="n" cf:compPort="s_axi_control" xd:register="0x28"/>
+    <cf:portMap cf:blockPort="m" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="s_axi_control" xd:register="0x38"/>
+    <cf:portMap cf:blockPort="maxVal" cf:compPort="s_axi_control" xd:register="0x40"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_image_thresholding_kernel01_1" cf:blockName="swblk_image_thresholding_kernel01" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="input_image" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="output_image" cf:compPort="ps_e_S_AXI_HP0_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP0"/>
+    <cf:portMap cf:blockPort="n" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="m" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="maxVal" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:instance cf:name="hwinst_fast_accel_1" cf:blockName="hwblk_fast_accel" cf:compName="fast_accel_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="s_axi_control" xd:register="0x0"/>
+    <cf:portMap cf:blockPort="img_in" cf:compPort="m_axi_gmem0" cf:ctrlPort="s_axi_control" xd:register="0x10"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="s_axi_control" xd:register="0x1C"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="m_axi_gmem1" cf:ctrlPort="s_axi_control" xd:register="0x24"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="s_axi_control" xd:register="0x30"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="s_axi_control" xd:register="0x38"/>
+  </cf:instance>
+  <cf:instance cf:name="swinst_fast_accel_1" cf:blockName="swblk_fast_accel" cf:compName="xilinx_zcu102_base_202220_1">
+    <cf:portMap cf:blockPort="s_axi_control" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_in" cf:compPort="ps_e_S_AXI_HP1_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP1"/>
+    <cf:portMap cf:blockPort="threshold" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="img_out" cf:compPort="ps_e_S_AXI_HP1_FPD" cf:ctrlPort="interconnect_axilite_M01_AXI" cf:sptag="HP1"/>
+    <cf:portMap cf:blockPort="rows" cf:compPort="interconnect_axilite_M01_AXI"/>
+    <cf:portMap cf:blockPort="cols" cf:compPort="interconnect_axilite_M01_AXI"/>
+  </cf:instance>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="img_in" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="img_in">
+    <cf:dataMover cf:compName="remap_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="map_x" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="map_x">
+    <cf:dataMover cf:compName="remap_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="map_y" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="map_y">
+    <cf:dataMover cf:compName="remap_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="img_out" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="img_out">
+    <cf:dataMover cf:compName="remap_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_remap_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_remap_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="img_inp" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="img_inp">
+    <cf:dataMover cf:compName="canny_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="img_out" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="img_out">
+    <cf:dataMover cf:compName="canny_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="low_threshold" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="low_threshold">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_canny_accel_1" cf:srcPort="high_threshold" cf:dstInst="hwinst_canny_accel_1" cf:dstPort="high_threshold">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="img_inp" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="img_inp">
+    <cf:dataMover cf:compName="sobel_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="img_out1" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="img_out1">
+    <cf:dataMover cf:compName="sobel_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="img_out2" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="img_out2">
+    <cf:dataMover cf:compName="sobel_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_sobel_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_sobel_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="img_inp" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="img_inp">
+    <cf:dataMover cf:compName="threshold_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="img_out" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="img_out">
+    <cf:dataMover cf:compName="threshold_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="thresh" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="thresh">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="maxval" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="maxval">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_threshold_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_threshold_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="img_inp" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="img_inp">
+    <cf:dataMover cf:compName="gaussian_filter_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="img_out" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="img_out">
+    <cf:dataMover cf:compName="gaussian_filter_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_gaussian_filter_accel_1" cf:srcPort="sigma" cf:dstInst="hwinst_gaussian_filter_accel_1" cf:dstPort="sigma">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="input_image" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="input_image">
+    <cf:dataMover cf:compName="image_thresholding_kernel00_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="output_image" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="output_image">
+    <cf:dataMover cf:compName="image_thresholding_kernel00_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="n" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="n">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="m" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="m">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="threshold" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="threshold">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel00_1" cf:srcPort="maxVal" cf:dstInst="hwinst_image_thresholding_kernel00_1" cf:dstPort="maxVal">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="input_image" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="input_image">
+    <cf:dataMover cf:compName="image_thresholding_kernel01_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="output_image" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="output_image">
+    <cf:dataMover cf:compName="image_thresholding_kernel01_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="n" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="n">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="m" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="m">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="threshold" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="threshold">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_image_thresholding_kernel01_1" cf:srcPort="maxVal" cf:dstInst="hwinst_image_thresholding_kernel01_1" cf:dstPort="maxVal">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="s_axi_control" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="s_axi_control">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="img_in" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="img_in">
+    <cf:dataMover cf:compName="fast_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="threshold" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="threshold">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="img_out" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="img_out">
+    <cf:dataMover cf:compName="fast_accel_1" cf:softwareLib="zero_copy"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="rows" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="rows">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+  <cf:connection cf:srcInst="swinst_fast_accel_1" cf:srcPort="cols" cf:dstInst="hwinst_fast_accel_1" cf:dstPort="cols">
+    <cf:dataMover cf:compName="xilinx_zcu102_base_202220_1" cf:softwareLib="axi_lite"/>
+  </cf:connection>
+</cf:model>

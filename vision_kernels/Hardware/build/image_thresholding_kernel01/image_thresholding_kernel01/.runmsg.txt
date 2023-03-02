@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: image_thresholding_kernel01
+Log file: /home/overman/dev/workspaces/vision/vision_kernels/Hardware/build/image_thresholding_kernel01/image_thresholding_kernel01/vitis_hls.log

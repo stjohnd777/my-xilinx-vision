@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>/home/overman/dev/workspaces/vision/vision_kernels/Hardware/build/threshold_accel/threshold_accel/threshold_accel/solution/.autopilot/db/xf_threshold_accel.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>/home/overman/dev/workspaces/vision/vision_kernels/src/threshold/../common/xf_video_mem.hpp</string>
+      <key>line</key>
+      <integer>760</integer>
+      <key>column</key>
+      <integer>47</integer>
+      <key>message</key>
+      <string>&apos;factor&apos; in &apos;#pragma HLS array_reshape&apos; is ignored</string>
+      <key>ID</key>
+      <integer>5529</integer>
+      <key>WarningOption</key>
+      <string>extra-tokens</string>
+    </dict>
+  </array>
+</dict>
